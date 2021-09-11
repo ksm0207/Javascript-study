@@ -5,8 +5,8 @@
 <a href="https://www.youtube.com/watch?v=tJieVCgGzhs&list=PLv2d7VI9OotTVOL4QmPfvJWPJvkmv6h-2&index=2">자바스크립트 2. 콘솔에 출력, script async 와 defer의 차이점</a>
 
 - async : Type boolean , default value = true
-- parsing -> <script async> [fetching js ... Command(down)] -> parsing -> success download js ->  parsing stop [executing js ] -> parsing
-- defer : <script defer> -> [fetching js ... Command(down)] -> all parsing -> executing js
+- parsing -> <script async> [fetching js ... Command(download)] -> parsing -> success download js ->  parsing stop [executing js ] -> parsing
+- defer : <script defer> -> [fetching js ... Command(download)] -> all parsing -> executing js
 - fetching js : js 파일을 가져오다 
 - executing js : js 파일을 실행하다
   
